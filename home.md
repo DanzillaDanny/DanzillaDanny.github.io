@@ -19,7 +19,7 @@ I’m seeking a software developer role where I can build meaningful projects.
 
 
   <img src="assets/Danny_Thacker_Resume_2026.jpg"
-  width="100%"
+  width="90"
   height="800px"
   style="border: none;"/>
 
