@@ -6,6 +6,11 @@ title: Danny Thacker
 [Home](#intro) | [Resume](#resume--achievements) | [Projects](#projects) | [Contact](#contact)
 
 ## Intro
+
+  <img src="assets/Danny_Thacker_Resume_2026.jpg"
+  width="90%"
+  height="800px"
+  style="border: none;"/>
 Hi, I’m Danny.  
 I’m a software developer in training with skills in JavaScript, Java, SQL, and Git/GitHub, with a background in audio engineering and creative work.
 
@@ -19,7 +24,7 @@ I’m seeking a software developer role where I can build meaningful projects.
 
 
   <img src="assets/Danny_Thacker_Resume_2026.jpg"
-  width="90"
+  width="90%"
   height="800px"
   style="border: none;"/>
 
