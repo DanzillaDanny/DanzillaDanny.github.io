@@ -9,7 +9,7 @@ title: Danny Thacker
 
   <img src="assets/Profile_pic.jpg"
   width="30%"
-  height="130px"
+  height="300px"
   style="border: none;"/>
 Hi, I’m Danny.  
 I’m a software developer in training with skills in JavaScript, Java, SQL, and Git/GitHub, with a background in audio engineering and creative work.
