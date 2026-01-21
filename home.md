@@ -17,12 +17,11 @@ I’m seeking a software developer role where I can build meaningful projects.
 
 [Download my Resume](assets/Danny_Thacker_Resume_2026.pdf)
 
-<iframe
-  src="assets/Danny_Thacker_Resume_2026.png"
+
+  <img src="assets/Danny_Thacker_Resume_2026.png"
   width="100%"
   height="800px"
-  style="border: none;">
-</iframe>
+  style="border: none;"/>
 
 ---
 
