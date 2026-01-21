@@ -7,7 +7,7 @@ title: Danny Thacker
 
 ## Intro
 
-  <img src="assets/Danny_Thacker_Resume_2026.jpg"
+  <img src="assets/Profile_pic.jpg"
   width="90%"
   height="800px"
   style="border: none;"/>
