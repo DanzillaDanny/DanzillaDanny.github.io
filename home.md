@@ -12,7 +12,6 @@ I’m a software developer in training with skills in JavaScript, Java, SQL, and
 I’m seeking a software developer role where I can build meaningful projects.
 
 ---
-<a id="resume"></a>
 
 ## Resume & Achievements
 
