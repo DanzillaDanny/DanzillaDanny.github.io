@@ -35,6 +35,12 @@ I’m seeking a software developer role where I can build meaningful projects.
 
 https://github.com/DanzillaDanny/Punk-Pad-Danny-T
 
+  <img src="assets/Punk_Pad.png"
+  width="100%"
+  height="800px"
+  style="border: none;"/>
+
+
 ---
 
 ## Contact
