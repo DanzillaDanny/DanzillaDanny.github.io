@@ -38,6 +38,8 @@ https://github.com/DanzillaDanny/Punk-Pad-Danny-T
   height="800px"
   style="border: none;"/>
 
+Punk Pad is a chord generator inspired by pop-punk, emo, and punk hits. It helps songwriters and guitar players of all skill levels quickly generate chord progressions commonly used in these genres, making it easier to start writing songs and experiment with new ideas.
+
 
 ---
 
