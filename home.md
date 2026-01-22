@@ -12,9 +12,7 @@ title: Danny Thacker
   height="300px"
   style="border: none;"/>
 Hi, I’m Danny.  
-I’m a software developer in training with skills in JavaScript, Java, SQL, and Git/GitHub, with a background in audio engineering and creative work.
-
-I’m seeking a software developer role where I can build meaningful projects.
+I’m a software developer with skills in JavaScript, Java, SQL, CSS, and Git/GitHub. I have a background in audio engineering, songwriting, and love to create. I’m seeking a software developer role where I can build meaningful projects.
 
 ---
 
@@ -35,7 +33,7 @@ I’m seeking a software developer role where I can build meaningful projects.
 
 https://github.com/DanzillaDanny/Punk-Pad-Danny-T
 
-  <img src="assets/Punk_Pad.png"
+  <img src="assets/Punk_Pad.jpg"
   width="100%"
   height="800px"
   style="border: none;"/>
