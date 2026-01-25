@@ -3,13 +3,15 @@ layout: default
 title: Danny Thacker
 ---
 
-<link rel="stylesheet" href="index.css">
-
 [Home](#intro) | [Resume](#resume--achievements) | [Projects](#projects) | [Contact](#contact)
 
 ## Intro
 
-  <img src="assets/Profile_pic.jpg"/>
+  <img src="assets/Profile_pic.jpg"
+  width: 30%; 
+  height: 300px;
+  clip-path: circle(50% at center); 
+  -webkit-clip-path: circle(50% at center);/>
 Hi, I’m Danny.  
 I’m a software developer with skills in JavaScript, Java, SQL, CSS, and Git/GitHub. I have a background in audio engineering, songwriting, and love to create. I’m seeking a software developer role where I can build meaningful projects.
 
