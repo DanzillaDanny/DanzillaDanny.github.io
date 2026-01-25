@@ -7,16 +7,8 @@ title: Danny Thacker
 
 ## Intro
 
-<img src="assets/Profile_pic.jpg"
-  style="width: 300px; 
-         height: 300px; 
-         object-fit: cover; 
-         float: left;
-         margin-right: 20px;
-         clip-path: circle(50%);
-         shape-outside: circle(50%); 
-         -webkit-clip-path: circle(50%);" 
-/>
+<img src="assets/Profile_pic.jpg" class="profile-pic" />
+
 <p>
 Hi, I’m Danny.  
 I’m a software developer with skills in JavaScript, Java, SQL, CSS, and Git/GitHub. I have a background in audio engineering, songwriting, and love to create. I’m seeking a software developer role where I can build meaningful projects.
@@ -27,11 +19,7 @@ I’m a software developer with skills in JavaScript, Java, SQL, CSS, and Git/Gi
 
 [Download my Resume](assets/Danny_Thacker_Resume_2026.pdf)
 
-
-  <img src="assets/Danny_Thacker_Resume_2026.jpg"
-  width="90%"
-  height="800px"
-  style="border: none;"/>
+<img src="assets/Danny_Thacker_Resume_2026.jpg" class="resume-image" />
 
 ---
 
@@ -40,10 +28,7 @@ I’m a software developer with skills in JavaScript, Java, SQL, CSS, and Git/Gi
 
 https://github.com/DanzillaDanny/Punk-Pad-Danny-T
 
-  <img src="assets/Punk_Pad.jpg"
-  width="100%"
-  height="800px"
-  style="border: none;"/>
+<img src="assets/Punk_Pad.jpg" class="project-image" />
 
 Punk Pad is a chord generator inspired by pop-punk, emo, and punk hits. It helps songwriters and guitar players of all skill levels quickly generate chord progressions commonly used in these genres, making it easier to start writing songs and experiment with new ideas.
 
