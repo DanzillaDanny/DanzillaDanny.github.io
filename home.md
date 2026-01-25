@@ -12,11 +12,10 @@ title: Danny Thacker
          height: 300px; 
          object-fit: cover; 
          float: left;
-         margin-right: 20px
+         margin-right: 20px;
          clip-path: circle(50%);
          shape-outside: circle(50%); 
-         -webkit-clip-path: circle(50%); 
-         border: none;" 
+         -webkit-clip-path: circle(50%);" 
 />
 <p>
 Hi, I’m Danny.  
