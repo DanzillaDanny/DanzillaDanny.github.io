@@ -8,9 +8,9 @@ title: Danny Thacker
 ## Intro
 
 <img
-  src="{{ '/assets/Profile_pic.jpg' | relative_url }}"
-  class="profile-pic"
+  src="/assets/Profile_pic.jpg"
   alt="Danny Thacker"
+  class="profile-pic"
   width="300"
   height="300"
 />
