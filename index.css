@@ -1,6 +1,15 @@
 img {
-  width: 300px; /* Use equal width/height for a circle */
-  height: 300px;
-  clip-path: circle(50% at center); /* The actual mask */
-  object-fit: cover;
+  /* Use your existing dimensions */
+  width: 30%; 
+  height: 300px; 
+  
+  /* Critical additions to make the mask work */
+  aspect-ratio: 1 / 1;      /* Forces it to be square so the circle is perfect */
+  object-fit: cover;        /* Prevents the person's face from being squashed */
+  
+  /* The Mask */
+  clip-path: circle(50% at center); 
+  
+  /* 2026 fallback for older engines */
+  -webkit-clip-path: circle(50% at center);
 }
