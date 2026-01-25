@@ -3,6 +3,8 @@ layout: default
 title: Danny Thacker
 ---
 
+<link rel="stylesheet" href="index.css">
+
 [Home](#intro) | [Resume](#resume--achievements) | [Projects](#projects) | [Contact](#contact)
 
 ## Intro

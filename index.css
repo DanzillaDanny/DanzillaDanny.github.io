@@ -1,0 +1,7 @@
+img {
+  mask-image: url("shape.png");
+  /* Optional: adjust positioning and sizing */
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  -webkit-mask-image: url("shape.png"); /* for older browser compatibility */
+}
