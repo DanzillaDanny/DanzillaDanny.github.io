@@ -1,7 +1,6 @@
 img {
-  mask-image: url("shape.png");
-  /* Optional: adjust positioning and sizing */
-  mask-repeat: no-repeat;
-  mask-size: contain;
-  -webkit-mask-image: url("shape.png"); /* for older browser compatibility */
+  width: 300px; /* Use equal width/height for a circle */
+  height: 300px;
+  clip-path: circle(50% at center); /* The actual mask */
+  object-fit: cover;
 }
