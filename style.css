@@ -6,7 +6,6 @@
   margin-right: 20px;
   clip-path: circle(50%);
   shape-outside: circle(50%);
-  -webkit-clip-path: circle(50%);
 }
 
 .resume-image {
