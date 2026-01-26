@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{Portfolio}}</title>
-    <link rel="stylesheet" href="/assets/index.css">
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" href="{{ '/assets/index.css' | relative_url }}">
 </head>
 <body>
     <main>
@@ -13,14 +13,12 @@
         </section>
         <section class = "Resume">
             <a href="/assets/Danny_Thacker_Resume.pdf" download>Download My Resume</a>
-            <img class = "resume-pic" src = "/assets/Resume_pic.png"/>
+            <img class = "resume-pic" src = '{{ "/assets/Resume_pic.png" | relative_url }}'/>
         </section>
         <section class = "project">
             <h2>Punk Pad</h2>
-            <img class = "project-pic" src = "/assets/Punk_Pad.png"/>
-            <p>
-
-            </p>
+            <img class = "punk-pad" src = '{{ "/assets/Punk_Pad.png" | relative_url }}'/>
+            {{ content }}
         </section>
     </main>
 </body>
