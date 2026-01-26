@@ -7,13 +7,7 @@ title: Danny Thacker
 
 ## Intro
 
-<img
-  src="/assets/Profile_pic.jpg"
-  alt="Danny Thacker"
-  class="profile-pic"
-  width="300"
-  height="300"
-/>
+<img src="/assets/Profile_pic.jpg"/>
 
 Hi, I’m Danny.  
 I’m a software developer with skills in JavaScript, Java, SQL, CSS, and Git/GitHub. I have a background in audio engineering, songwriting, and love to create. I’m seeking a software developer role where I can build meaningful projects.
