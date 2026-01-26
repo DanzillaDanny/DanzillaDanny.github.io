@@ -7,19 +7,42 @@
     <link rel="stylesheet" href="{{ '/assets/index.css' | relative_url }}">
 </head>
 <body>
-    <main>
-        <section class = "intro">
-   <img class ="profile-pic" src = "/assets/Profile_pic.jpg"/>
+    <header class="site-header">
+        <nav class ="nav">
+            <a href="#intro">About Me</a>
+            <a href="#Resume">Resume</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+
+        <section class = "hero">
+    <img class ="profile-pic" src = "{{ '/assets/Profile_pic.jpg' | relative_url }}"/>
+    <div class="hero-text">
+        <h1>Danny Thacker</h1>
+        <p>Software Developer | JavaScript | Java | SQL | React | CSS | Audio Engineer</p>
+    </div>
         </section>
-        <section class = "Resume">
-            <a href="/assets/Danny_Thacker_Resume.pdf" download>Download My Resume</a>
-            <img class = "resume-pic" src = '{{ "/assets/Resume_pic.png" | relative_url }}'/>
-        </section>
-        <section class = "project">
-            <h2>Punk Pad</h2>
-            <img class = "punk-pad" src = '{{ "/assets/Punk_Pad.png" | relative_url }}'/>
-            {{ content }}
-        </section>
+        <section class = "cards">
+            <a class="card" href="{{ '/assets/Danny_Thacker_Resume_2026.pdf' | relative_url }}" target="blank" rel=""noopener>
+                <img class="card-img" src="{{ '/assets/Resume_2026.jpg' | relative_url }}" alt="Resume preview">
+                <a class="card-title">Download Resume</div></a>
+    
+   <a class="card" href="https://danzilladanny.github.io/punk-pad/" target="_blank" rel="noopener">
+        <img class="card-img" src="{{ '/assets/punk_pad.png' | relative_url }}" alt="Punk Pad preview">
+        <div class="card-title">Punk Pad</div>
+      </a>
+    </section>
+
+    {{ content }}
+    
     </main>
+
+  <footer class="footer">
+    <p>© {{ "now" | date: "%Y" }} Danny Thacker</p>
+  </footer>
 </body>
-</html>
+</html>         
