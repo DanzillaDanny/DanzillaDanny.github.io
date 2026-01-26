@@ -11,3 +11,15 @@ body {
     border-radius: 50%;
     object-fit: cover;
 }
+
+resume-pic{
+    position: center;
+    width: 50%;
+    height: auto;
+}
+
+punk-pad{
+    position: center;
+    width: 50%;
+    height: auto;
+}
