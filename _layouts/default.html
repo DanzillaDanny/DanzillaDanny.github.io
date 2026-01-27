@@ -6,6 +6,7 @@
     <title>{{page.title}}</title>
     <link rel="stylesheet" href="{{ '/assets/index.css' | relative_url }}">
 </head>
+
 <body>
     <header class="site-header">
         <nav class ="nav">
@@ -19,22 +20,28 @@
     <main class="container">
 
 
-        <section class = "hero">
+        <section id="intro" class="hero">
     <img class ="profile-pic" src = "{{ '/assets/Profile_pic.jpg' | relative_url }}"/>
     <div class="hero-text">
         <h1>Danny Thacker</h1>
         <p>Software Developer | JavaScript | Java | SQL | React | CSS | Audio Engineer</p>
     </div>
         </section>
-        <section class = "cards">
+        <section id="project" class="cards">
+
             <a class="card" href="{{ '/assets/Danny_Thacker_Resume_2026.pdf' | relative_url }}" target="blank" rel=""noopener>
                 <img class="card-img" src="{{ '/assets/Resume_2026.jpg' | relative_url }}" alt="Resume preview">
-                <a class="card-title">Download Resume</div></a>
+                <div class="card-title">Download Resume</div>
+            </a>
     
-   <a class="card" href="https://danzilladanny.github.io/punk-pad/" target="_blank" rel="noopener">
-        <img class="card-img" src="{{ '/assets/punk_pad.png' | relative_url }}" alt="Punk Pad preview">
+   <a class="card" href="https://danzilladanny.github.io/punk-pad/" 
+   target="_blank"
+    rel="noopener">
+    <img class="card-img" src="{{ '/assets/punk_pad.png' | relative_url }}"
+     alt="Punk Pad preview">
         <div class="card-title">Punk Pad</div>
-      </a>
+    </a>
+    
     </section>
 
     {{ content }}
