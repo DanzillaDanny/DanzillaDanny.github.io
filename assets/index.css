@@ -127,6 +127,14 @@ background:
     height: 320px;
     border-radius: 50%;
     object-fit: cover;
+    display: block;
+
+    outline: 5px solid rgba(255,255,255,0.25);
+    outline-offset: -6px;
+
+    box-shadow:
+    0 10px 20px rgba(0,0,0,0.6),
+    0 0 0 2px rgba(255,255,255,0.08);
 }
 
 .resume-pic,
