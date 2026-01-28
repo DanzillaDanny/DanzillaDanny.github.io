@@ -50,10 +50,11 @@ background:
 
 .nav a{
     font-family: Impact, Arial Black, sans-serif;
-    font-size: 2.0rem;
-    letter-spacing: 0.07rem;
+    font-size: 2rem;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
+    text-decoration: none;
     position: relative;
 }
 
@@ -64,31 +65,21 @@ background:
   bottom: -0.55em;
 
   width: 0%;
-  height: 0.28em;      
-
+  height: 0.20em;      
   background: var(--accent-color);
   opacity: 0.95;
   z-index: -1;
 
-
   transform: rotate(-1.4deg) skewX(-3deg);
 
-
-  border-radius: 1px 5px 1px 6px;
-  box-shadow:
-    0 1px 0 rgba(0,0,0,0.35),
-    0 -1px 0 rgba(255,255,255,0.10),
-    inset 10px 0 0 rgba(255,255,255,0.06),
-    inset -14px 0 0 rgba(0,0,0,0.18);
+  border-radius: 1px 4px 1px 5px;
 
   transition:
-    width 0.22s ease-out,
     transform 0.22s ease-out;
 }
 
 .nav a:hover::before{
-    width: 112%;
-    transform: rotate(-1.2deg) skewX(-1.5deg);
+    width: 110%;
 }
 
 .container{
