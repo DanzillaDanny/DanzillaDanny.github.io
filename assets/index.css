@@ -2,7 +2,6 @@
     --main-bg-color: #000000;
     --main-text-color: #ffffff;
     --accent-color: #ff23a3;
-    --accent-rgb: 205 8 117;
     --max: 900px;
 }
 
@@ -24,11 +23,11 @@ body::before {
 
 background:
 
-    /* fine dust */
+
     radial-gradient(circle, rgba(255,255,255,0.06) 1px, transparent 1.4px),
     radial-gradient(circle, rgba(255,255,255,0.04) 0.8px, transparent 1.2px),
 
-    /* paper grain */
+
     repeating-linear-gradient(
       0deg,
       rgba(255,255,255,0.015),
@@ -73,6 +72,7 @@ background:
     color: #ffffff;
     text-decoration: none;
     position: relative;
+    z-index: 1;
 }
 
 .nav a::before{
@@ -85,13 +85,13 @@ background:
   height: 0.20em;      
   background: var(--accent-color);
   opacity: 0.95;
-  z-index: -1;
 
   transform: rotate(-1.4deg) skewX(-3deg);
 
   border-radius: 1px 4px 1px 5px;
 
   transition:
+  width 0.22s ease-out,
     transform 0.22s ease-out;
 }
 
@@ -114,20 +114,47 @@ background:
 .hero-text h1{
     font-size: 3rem;
     font-family: Impact, Arial Black, sans-serif;
-    letter-spacing: 0.1em;
 }
 
 .nav a,
 .section h2,
 .hero-text h1 {
-  font-family: Impact, Impact, Haettenschweiler, 'Arial Black', "Franklin Gothic Heavy", Arial, sans-serif;
+  font-family: Impact, 'Arial Black', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   font-weight: 900;
+
+text-shadow:
+  1px 0 0 rgba(0,0,0,0.85),
+  -1px 0 0 rgba(0,0,0,0.55),
+  0 1px 0 rgba(0,0,0,0.75),
+  0 -1px 0 rgba(0,0,0,0.45),
+  1px 1px 0 rgba(255,255,255,0.05),
+  -1px 1px 0 rgba(255,255,255,0.03);
 }
 
 .section {
   margin-top: 3.5rem;
+}
+
+.section p a,
+.section li a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 0.95rem;
+
+  color: rgba(255,255,255,0.95);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+
+  opacity: 0.95;
+  transition: opacity 0.15s ease-out;
+}
+
+.section p a:hover,
+.section li a:hover {
+  opacity: 1;
 }
 
 .profile-pic{
