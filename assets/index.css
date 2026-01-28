@@ -38,10 +38,14 @@ body::before {
 .nav a,
 .section h2,
 .hero-text h1 {
-  font-family: "Oswald", "Arial Narrow", Arial, sans-serif;
+  font-family: Impact, Impact, Haettenschweiler, 'Arial Black', "Franklin Gothic Heavy", Arial, sans-serif;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-weight: 900;
+
+  transform: scaleY(.92) rotate(-04deg);
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.6),
+  -1px 0 0 rgba(255,255,255,0.04);
 }
 
 .site-header{
