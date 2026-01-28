@@ -112,27 +112,6 @@ background:
   margin-top: 3.5rem;
 }
 
-.section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  width: min(560px, 100%);
-  height: 14px;
-
-  background: var(--accent-color);
-  opacity: 0.35;
-
-  transform: rotate(-1.2deg);
-  border-radius: 8px 4px 10px 6px;
-  filter: blur(0.3px);
-}
-
-#about-me.section::before {
-  content: none;
-}
-
 .profile-pic{
     width: 320px;
     height: 320px;
