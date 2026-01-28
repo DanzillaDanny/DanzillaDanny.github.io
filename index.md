@@ -3,7 +3,7 @@ layout: default
 title: Danny Thacker
 ---
 
-## Intro
+## About Me {#about-me}
 
 ---
 

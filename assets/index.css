@@ -54,13 +54,13 @@ body {
     object-fit: cover;
 }
 
-resume-pic{
+.resume-pic{
     position: center;
     width: 50%;
     height: auto;
 }
 
-punk-pad{
+.punk-pad{
     position: center;
     width: 50%;
     height: auto;
