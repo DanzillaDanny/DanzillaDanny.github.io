@@ -152,3 +152,28 @@ background:
     display: block;
     margin: 1rem auto;
 }
+
+#contact {
+  text-align: center;
+}
+
+#contact p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.9);
+}
+
+#contact a {
+  color: rgba(255,255,255,0.95);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  opacity: 0.95;
+  transition: opacity 0.15s ease-out;
+}
+
+#contact a:hover {
+  opacity: 1;
+}
