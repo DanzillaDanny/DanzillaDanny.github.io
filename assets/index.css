@@ -91,6 +91,7 @@ background:
   transition:
   width 0.22s ease-out,
     transform 0.22s ease-out;
+    z-index: -1;
 }
 
 .nav a:hover::before{
