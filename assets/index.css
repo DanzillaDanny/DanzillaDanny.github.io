@@ -6,7 +6,7 @@
 
 body {
    font-family: system-ui, san-serif;
-   background: var(--main bg-color);
+   background: var(--main-bg-color);
     color: var(--main-text-color);
    max-width: 900px;
     margin: auto;
