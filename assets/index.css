@@ -19,18 +19,22 @@ body {
 }
 
 .nav{
-    max-width: var(--max);
-    margin: auto;
-    padding: 1rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
+    padding: 1.25rem;
     flex-wrap: wrap;
 }
 
 .nav a{
     text-decoration: none;
     color: var(--main-text-color);
-    font-weight: bold;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    position: relative;
 }
 
 .container{
@@ -60,8 +64,10 @@ body {
     height: auto;
 }
 
-.punk-pad{
+.punk-pad-pic{
     position: center;
     width: 50%;
+    display: block;
     height: auto;
+    margin: auto;
 }
