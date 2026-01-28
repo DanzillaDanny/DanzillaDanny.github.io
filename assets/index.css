@@ -1,7 +1,7 @@
 :root {
     --main-bg-color: #000000;
     --main-text-color: #ffffff;
-    --accent-color: #9c0101;
+    --accent-color: #ce0875;
 }
 
 body {
@@ -20,9 +20,10 @@ body {
 
 .nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 1rem;
+    max-width: 700px;
+    margin: auto;
     padding: 1.25rem;
     flex-wrap: wrap;
 }
