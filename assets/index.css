@@ -216,7 +216,7 @@ body {
 
 .card-title {
     text-align: center;
-    font-family: Impact, 'Arial Black', 'Franklin Gothic Bold', sans-serif;
+    font-family: var(--display-font);
     font-size: clamp(1.4rem, 5vw, 1.8rem);
     text-transform: uppercase;
     letter-spacing: 0.06em;
