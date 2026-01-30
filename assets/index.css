@@ -247,10 +247,11 @@ body::after {
 
 .profile-pic {
   width: 100%;
-  max-width: clamp(320px, 28vw, 460px);
+  max-width: 320px;
   aspect-ratio: 1;
   border-radius: 50%;
   object-fit: cover;
+  overflow: hidden;
   display: block;
 
   box-shadow:
