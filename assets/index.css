@@ -180,10 +180,17 @@ body::after {
 
 .hero-text h1 {
   font-family: var(--display-font);
-  font-size: clamp(2.2rem, 6vw, 3.6rem);
-  letter-spacing: 0.06em;
+  transform: uppercase;
+  font-size: clamp(3.8rem, 12vw, 6.5rem);
+  letter-spacing: 0.02em;
+
   font-weight: 400;
   margin-top: 0;
+  line-height: 0.95; 
+
+  opacity: 0;
+  animation: fadeUp 520ms ease-out forwards;
+  animation-delay: 120ms;
 }
 
 
