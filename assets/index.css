@@ -105,6 +105,7 @@ body::before{
 
 .profile-wrap {
     flex-shrink: 0;
+    position: relative
 }
 
 .hero-text {
@@ -191,22 +192,6 @@ text-shadow:
         0 0 0 2px rgba(255,255,255,0.08);
 }
 
-.profile-wrap::before {
-    content: '';
-    position: absolute;
-    inset: -20px;
-    background: 
-        radial-gradient(circle at 10% 20%, var(--accent-color) 0%, transparent 8%),
-        radial-gradient(circle at 90% 30%, var(--accent-color) 0%, transparent 6%),
-        radial-gradient(circle at 85% 80%, var(--accent-color) 0%, transparent 10%),
-        radial-gradient(circle at 15% 75%, var(--accent-color) 0%, transparent 7%),
-        radial-gradient(circle at 50% 5%, var(--accent-color) 0%, transparent 5%);
-    opacity: 0.4;
-    filter: blur(2px);
-    pointer-events: none;
-    z-index: -1;
-}
-
 .resume-card,
 .punk-pad-card {
     display: block;
@@ -234,7 +219,7 @@ text-shadow:
 
 .card-title {
     text-align: center;
-    font-family: 'Bebas Neue', 'Impact', Arial Black, sans-serif;
+    font-family: Impact, 'Arial Black', 'Franklin Gothic Bold', sans-serif;
     font-size: clamp(1.4rem, 5vw, 1.8rem);
     text-transform: uppercase;
     letter-spacing: 0.06em;
