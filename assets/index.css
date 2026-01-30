@@ -187,7 +187,8 @@ body::after {
 
 .hero-text h1 {
   position: center;
-  top: 2rem;          
+ font-size: clamp(4.2rem, 8vw, 6.5rem);
+ top: 2rem;         
   margin: 0;
 
   text-align: center;
