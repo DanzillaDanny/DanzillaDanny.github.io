@@ -12,46 +12,33 @@ body {
     margin: auto;
 }
 
-body::before {
-  content: "";
+body::before{
+content:"";
   position: fixed;
   inset: 0;
   pointer-events: none;
   z-index: -1;
 
-background:
-
-
-    radial-gradient(circle, rgba(255,255,255,0.06) 1px, transparent 1.4px),
-    radial-gradient(circle, rgba(255,255,255,0.04) 0.8px, transparent 1.2px),
-
+  background:
+  
+    radial-gradient(1200px 900px at 15% 20%, rgba(0,0,0,0.20), transparent 60%),
+    radial-gradient(900px 700px at 80% 30%, rgba(0,0,0,0.14), transparent 58%),
+    radial-gradient(700px 600px at 35% 85%, rgba(255,255,255,0.10), transparent 55%),
 
     repeating-linear-gradient(
-      0deg,
-      rgba(255,255,255,0.015),
-      rgba(255,255,255,0.015) 1px,
-      transparent 1px,
-      transparent 4px
+      -12deg,
+      rgba(0,0,0,0.10) 0px,
+      rgba(0,0,0,0.10) 1px,
+      transparent 2px,
+      transparent 14px
     ),
     repeating-linear-gradient(
-      90deg,
-      rgba(255,255,255,0.01),
-      rgba(255,255,255,0.01) 1px,
-      transparent 1px,
-      transparent 6px
+      7deg,
+      rgba(0,0,0,0.06) 0px,
+      rgba(0,0,0,0.06) 1px,
+      transparent 2px,
+      transparent 22px
     );
-
-
-  background-size:
-    260px 260px,
-    180px 180px,
-    100% 6px,
-    100% 8px;
-}
-
-.site-header{
-    text-align: center;
-    margin-bottom: 2rem;
 }
 
 .nav{
