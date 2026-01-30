@@ -159,20 +159,34 @@ body {
 }
 
 .profile-pic{
-    width: 100%;
-    max-width: 320px;
-    height: auto;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    object-fit: cover;
-    display: block;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
 
-    outline: 5px solid rgba(255,255,255,0.25);
-    outline-offset: -6px;
-    
-    box-shadow:
-        0 10px 20px rgba(0,0,0,0.6),
-        0 0 0 2px rgba(255,255,255,0.08);
+  outline: 5px solid rgba(255,255,255,0.25);
+  outline-offset: -6px;
+
+  box-shadow:
+    0 10px 20px rgba(0,0,0,0.6),
+    0 0 0 2px rgba(255,255,255,0.08);
+
+  
+  opacity: 0;
+  animation: slideInLeft 560ms ease-out forwards;
+  animation-delay: 220ms;
+}
+
+.profile-pic {
+  cursor: pointer;
+}
+
+.profile-pic:hover {
+  transform: scale(1.02);
+  transition: transform 160ms ease-out;
 }
 
 .resume-card,
