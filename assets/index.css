@@ -254,8 +254,9 @@ body::after {
   width: 100%;
   max-width: 320px;
   aspect-ratio: 1;
-  border-radius: 50%;
+  border-radius: 0%;
   object-fit: cover;
+  object-position: center;
   overflow: hidden;
   display: block;
 
