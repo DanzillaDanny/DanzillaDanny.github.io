@@ -16,37 +16,64 @@ body::before{
 content:"";
   position: fixed;
   inset: 0;
-  pointer-events: none;
   z-index: -1;
+  pointer-events: none;
 
   background:
-  
-    radial-gradient(1200px 900px at 15% 20%, rgba(0,0,0,0.20), transparent 60%),
-    radial-gradient(900px 700px at 80% 30%, rgba(0,0,0,0.14), transparent 58%),
-    radial-gradient(700px 600px at 35% 85%, rgba(255,255,255,0.10), transparent 55%),
+
+    radial-gradient(1100px 900px at 12% 18%, rgba(255,35,163,0.25), transparent 62%),
+    radial-gradient(900px 700px at 85% 25%, rgba(255,35,163,0.20), transparent 60%),
+    radial-gradient(800px 600px at 40% 88%, rgba(255,255,255,0.08), transparent 55%),
 
     repeating-linear-gradient(
-      -12deg,
-      rgba(0,0,0,0.10) 0px,
-      rgba(0,0,0,0.10) 1px,
+      -8deg,
+      rgba(255,35,163,0.18) 0px,
+      rgba(255,35,163,0.18) 1px,
       transparent 2px,
-      transparent 14px
+      transparent 18px
     ),
     repeating-linear-gradient(
-      7deg,
-      rgba(0,0,0,0.06) 0px,
-      rgba(0,0,0,0.06) 1px,
+      12deg,
+      rgba(0,0,0,0.45) 0px,
+      rgba(0,0,0,0.45) 1px,
       transparent 2px,
-      transparent 22px
-    );
-}
+      transparent 26px
+    ),
 
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 700px;
-    margin: auto;
+    radial-gradient(circle, rgba(255,35,163,0.35) 1px, transparent 1.3px),
+    radial-gradient(circle, rgba(255,255,255,0.15) 0.8px, transparent 1.1px),
+
+    repeating-linear-gradient(
+      0deg,
+      rgba(255,255,255,0.06),
+      rgba(255,255,255,0.06) 1px,
+      transparent 2px,
+      transparent 6px
+    );
+
+  background-size:
+    100% 100%,
+    100% 100%,
+    100% 100%,
+    100% 100%,
+    100% 100%,
+    140px 140px,
+    90px 90px,
+    100% 100%;
+
+  background-position:
+    center,
+    center,
+    center,
+    center,
+    center,
+    0 0,
+    40px 60px,
+    center;
+
+  filter:
+    contrast(1.35)
+    saturate(1.1);
 }
 
 .nav a{
