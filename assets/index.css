@@ -185,10 +185,26 @@ text-shadow:
 
     outline: 5px solid rgba(255,255,255,0.25);
     outline-offset: -6px;
-
+    
     box-shadow:
-    0 10px 20px rgba(0,0,0,0.6),
-    0 0 0 2px rgba(255,255,255,0.08);
+        0 10px 20px rgba(0,0,0,0.6),
+        0 0 0 2px rgba(255,255,255,0.08);
+}
+
+.profile-wrap::before {
+    content: '';
+    position: absolute;
+    inset: -20px;
+    background: 
+        radial-gradient(circle at 10% 20%, var(--accent-color) 0%, transparent 8%),
+        radial-gradient(circle at 90% 30%, var(--accent-color) 0%, transparent 6%),
+        radial-gradient(circle at 85% 80%, var(--accent-color) 0%, transparent 10%),
+        radial-gradient(circle at 15% 75%, var(--accent-color) 0%, transparent 7%),
+        radial-gradient(circle at 50% 5%, var(--accent-color) 0%, transparent 5%);
+    opacity: 0.4;
+    filter: blur(2px);
+    pointer-events: none;
+    z-index: -1;
 }
 
 .resume-card,
