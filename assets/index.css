@@ -186,10 +186,8 @@ body::after {
 }
 
 .hero-text h1 {
-  position: absolute;
-  top: 0.75rem;          
-  left: 50%;
-  transform: translateX(-50%);
+  position: center;
+  top: 2rem;          
   margin: 0;
 
   text-align: center;
