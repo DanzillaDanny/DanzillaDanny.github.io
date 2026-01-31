@@ -218,24 +218,20 @@ body::before {
 
 .profile-pic {
   width: 100%;
-  max-width: 320px;
-  aspect-ratio: 1;
-  border-radius: 0%;
-  object-fit: cover;
-  object-position: center;
-  overflow: hidden;
+  height: 100%;           
   display: block;
 
-  box-shadow:
-    0 10px 20px rgba(0,0,0,0.6),
-    0 0 0 2px rgba(255,255,255,0.08);
+  object-fit: cover;
+  object-position: center;
+
+  max-width: none;        
+  aspect-ratio: auto;     
 
   opacity: 0;
   animation: slideInLeft 560ms ease-out forwards;
   animation-delay: 220ms;
-}
-.profile-pic {
-  cursor: pointer;
+
+  transition: transform 160ms ease-out;
 }
 
 .profile-pic:hover {
