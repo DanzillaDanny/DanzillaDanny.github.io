@@ -4,6 +4,7 @@
     --accent-color: #ff23a3;
     --max: 900px;
     --display-font: "Bebas Neue", Arial, sans-serif;
+    --surf-green: #5fb3a2;
 }
 
 * {
@@ -145,6 +146,8 @@ body::before {
   height: 320px;
   border-radius: 50%;
   overflow: hidden;
+
+   background-color: var(--surf-green);
 
   padding: 0;
   margin: 0;
