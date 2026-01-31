@@ -10,14 +10,16 @@
     box-sizing: border-box;
 }
 
-@keyframes slideInLeft {
+@keyframes heroFade {
   from {
     opacity: 0;
-    transform: translateX(-14px);
+    filter: blur(6px) grayscale(20%) brightness(0.9);
+    transform: scale(0.985);
   }
   to {
     opacity: 1;
-    transform: translateX(0);
+    filter: blur(0px) grayscale(0%) brightness(1);
+    transform: scale(1);
   }
 }
 
@@ -152,6 +154,11 @@ body::before {
   box-shadow:
     0 14px 28px rgba(0,0,0,0.6),
     0 0 0 2px rgba(255,255,255,0.12);
+
+      opacity: 0;
+  animation: heroFade 700ms ease-out forwards;
+  animation-delay: 180ms;
+  will-change: opacity, transform, filter;
 }
 
 .hero-text {
@@ -239,10 +246,6 @@ body::before {
   aspect-ratio: auto;     
 
   opacity: 0;
-  animation: slideInLeft 560ms ease-out forwards;
-  animation-delay: 220ms;
-
-  transition: transform 160ms ease-out;
 }
 
 .profile-pic:hover {
@@ -351,6 +354,11 @@ margin: 0;
   box-shadow:
     0 14px 28px rgba(0,0,0,0.6),
     0 0 0 2px rgba(255,255,255,0.12) ;
+
+      opacity: 0;
+  animation: heroFade 700ms ease-out forwards;
+  animation-delay: 180ms;
+  will-change: opacity, transform, filter;
 }
 
 .profile-pic{
