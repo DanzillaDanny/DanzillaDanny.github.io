@@ -316,19 +316,19 @@ body::before {
 }
 
 .footer {
-    text-align: center;
-    padding: 2rem 1rem;
-    margin-top: 4rem;
-    border-top: 1px solid rgba(255,255,255,0.1);
-    font-size: 0.9rem;
-    opacity: 0.7;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 4rem;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  font-size: 0.9rem;
+  opacity: 0.7;
 }
 
-.footer p{
-text-align: center;
-margin: 0;
+.footer p {
+  margin: 0;
 }
 
+/* icon row */
 .footer-icons {
   display: flex;
   justify-content: center;
@@ -337,15 +337,44 @@ margin: 0;
   margin-top: 0.9rem;
 }
 
+/* bigger hit area, same icon size */
 .footer-icons a {
-display: inline-flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
+  width: 40px;     /* changed from 32 */
+  height: 40px;    /* changed from 32 */
   opacity: 0.8;
   transition: opacity 160ms ease-out, transform 160ms ease-out;
-  text-decoration: none; 
+  text-decoration: none;
+}
+
+.footer-icons a:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+.icon--img {
+  width: 32px;
+  height: 32px;
+  display: block;
+  object-fit: contain;
+}
+
+.footer-icons .octicon {
+  width: 32px;
+  height: 32px;
+  display: block;
+  fill: #ffffff;   
+  color: #ffffff;  
+}
+
+.footer-inner {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .footer-icons a:hover {
