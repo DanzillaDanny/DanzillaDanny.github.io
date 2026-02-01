@@ -6,6 +6,11 @@
     --display-font: "Bebas Neue", Arial, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -347,11 +352,19 @@ display: inline-flex;
   opacity: 1;
   transform: translateY(-2px);
 }
-.icon, .icon--img, .icon--svg {
-  width: 32px !important;
-  height: 32px !important;
+
+.icon--img {
+  width: 32px;
+  height: 32px;
   display: block;
   object-fit: contain;
+}
+
+.octicon {
+  width: 32px;
+  height: 32px;
+  display: block;
+  color: #ffffff; 
 }
 
 .footer-inner {
