@@ -354,7 +354,11 @@ margin: 0;
 }
 
 .icon-svg {
-  filter: invert(1);
+  width: 32px;
+  height: 32px;
+  display: block;
+  color: #ffffff;
+  filter: none;
 }
 
 .icon-png {
