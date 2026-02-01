@@ -346,23 +346,23 @@ margin: 0;
   transform: translateY(-2px);
 }
 
-.icon-svg,
-.icon-png {
+.icon {
   width: 32px;
   height: 32px;
   display: block;
 }
 
-.icon-svg {
-  width: 32px;
-  height: 32px;
-  display: block;
+.icon--svg {
   color: #ffffff;
   filter: none;
 }
 
-.icon-png {
-  opacity: 0.95;
+.icon--img {
+  width: 32px;
+  height: 32px;
+  display: block;
+  object-fit: contain;
+  filter: none;
 }
 
 .footer-inner {
