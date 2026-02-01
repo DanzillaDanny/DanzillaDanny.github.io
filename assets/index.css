@@ -377,33 +377,6 @@ body::before {
   flex-wrap: wrap;
 }
 
-.footer-icons a:hover {
-  opacity: 1;
-  transform: translateY(-2px);
-}
-
-.icon--img {
-  width: 32px;
-  height: 32px;
-  display: block;
-  object-fit: contain;
-}
-
-.octicon {
-  width: 32px;
-  height: 32px;
-  display: block;
-  color: #ffffff; 
-}
-
-.footer-inner {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 @media (max-width: 768px) {
     .hero {
         flex-direction: column;
