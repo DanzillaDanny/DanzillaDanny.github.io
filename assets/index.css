@@ -308,15 +308,6 @@ body::before {
 .footer-icon {
   width: 32px;
   height: 32px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.footer-icon {
-  width: 32px;
-  height: 32px;
   display: block;
   object-fit: contain;
 }
