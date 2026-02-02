@@ -164,6 +164,7 @@ body::before {
 }
 
 .hero-text {
+  text-align: center;
     flex: 0 1 520px;
     min-width: 280px;
 }
