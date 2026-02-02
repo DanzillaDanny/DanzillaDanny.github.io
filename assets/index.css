@@ -343,45 +343,46 @@ img[src*="InBug-White.png"] {
         text-align: center;
         gap: 1rem;
     }
-    
-    .hero-title { order: 1; width: 100%; }
-    .hero-title h1 { margin: 0.25rem 0; text-align: center; }
+
+    /* Ensure ordering on phones: name (h1 in .hero-text) first, image second, then the rest */
+    .hero > .hero-text { order: 1; width: 100%; }
+    .hero > .profile-wrap { order: 2; float: none; margin: 0.5rem auto; width: 320px; height: 320px; }
+    .hero > p, .hero > h3 { order: 3; width: 100%; }
+
+    .hero-text h1 { margin: 0.25rem 0; text-align: center; }
 
     .profile-pic{
-  width: 100%;
-  height: 100%;
-  object-position: center;
-  display: block; 
+      width: 100%;
+      height: 100%;
+      object-position: center;
+      display: block; 
 
-  object-fit: cover; 
-  object-position: center; 
+      object-fit: cover; 
+      object-position: center; 
 
-  border-radius: 0; 
-  max-width: none; 
-}
+      border-radius: 0; 
+      max-width: none; 
+    }
 
-    .profile-wrap { order: 2; float: none; margin: 0.5rem auto; width: 320px; height: 320px; }
+    .profile-wrap{
+      width: 320px;
+      height: 320px;
+      border-radius: 50%;
+      overflow: hidden;
 
-    .hero-text { order: 3; width: 100%; }
+      padding: 0;
+      margin: 0;
 
-.profile-wrap{
-  width: 320px;
-  height: 320px;
-  border-radius: 50%;
-  overflow: hidden;
+      box-shadow:
+        0 14px 28px rgba(0,0,0,0.6),
+        0 0 0 2px rgba(255,255,255,0.12);
 
-  padding: 0;
-  margin: 0;
-
-  box-shadow:
-    0 14px 28px rgba(0,0,0,0.6),
-    0 0 0 2px rgba(255,255,255,0.12) ;
-
-      opacity: 0;
-  animation: heroFade 700ms ease-out forwards;
-  animation-delay: 180ms;
-  will-change: opacity, transform, filter;
-}    
+        opacity: 0;
+      animation: heroFade 700ms ease-out forwards;
+      animation-delay: 180ms;
+      will-change: opacity, transform, filter;
+    }
+    
     .resume-pic,
     .punk-pad-pic {
         width: 95%;
@@ -404,4 +405,8 @@ img[src*="InBug-White.png"] {
     .nav a {
         font-size: 1.1rem;
     }
+
+    /* Smaller hero sizes on small phones */
+    .hero-title h1 { font-size: clamp(1.8rem, 7vw, 2.8rem); }
+    .profile-wrap { width: 200px; height: 200px; }
 }
