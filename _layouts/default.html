@@ -98,29 +98,24 @@ or guide cave tours at Meramec Caverns, I’m confident I can figure out just ab
     </p>
     </section>
 
-<section id="contact" class="section">
-  <h2>Contact Me</h2>
+    {{ content }}
 
-  <p class="contact-lines">
-    Email: <a href="mailto:thenumberonesonsband@gmail.com">thenumberonesonsband@gmail.com</a>
-    Github: <a href="https://github.com/DanzillaDanny"></a>
-  </p>
-
-<div class="footer-icons contact-icons">
-  <a href="https://www.linkedin.com/in/danny-thacker/" target="_blank" rel="noopener" aria-label="LinkedIn">
-    <img src="{{ '/assets/InBug-White.png' | relative_url }}" class="icon icon--img" alt="">
-  </a>
-
-</div>
-</section>
-
-
-{{ content }}
 </main>
 
-<footer class="footer">
+<footer id="contact" class="footer">
   <div class="footer-inner">
-    <p>© {{ "now" | date: "%Y" }} Danny Thacker</p>
+    <p class="footer-contact">
+      <a href="mailto:thenumberonesonsband@gmail.com">thenumberonesonsband@gmail.com</a>
+      <span class="footer-sep">•</span>
+      <a href="https://github.com/DanzillaDanny" target="_blank" rel="noopener">GitHub</a>
+    </p>
+
+    <div class="footer-icons">
+      <a href="https://www.linkedin.com/in/danny-thacker/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <img src="{{ '/assets/InBug-White.png' | relative_url }}" class="icon icon--img" alt="LinkedIn">
+      </a>
+    </div>
+    <p class="footer-copy">© {{ "now" | date: "%Y" }} Danny Thacker</p>
   </div>
 </footer>
 </body>
