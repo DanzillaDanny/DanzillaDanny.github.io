@@ -139,16 +139,6 @@ body::before {
     display: block;
 }
 
-.hero-name {
-  text-align: center;
-  margin: 0 0 1.25rem;
-  font-family: var(--display-font);
-  font-weight: 400;
-  letter-spacing: 0.01em;
-  line-height: 0.9;
-  font-size: clamp(4.2rem, 8vw, 6.5rem); 
-}
-
 .profile-wrap {
   float: left;
   width: 280px;
@@ -157,9 +147,6 @@ body::before {
 
   border-radius: 50%;
   overflow: hidden;
-
-  padding: 0;
-  margin: 0;
 
   box-shadow:
     0 14px 28px rgba(0,0,0,0.6),
@@ -177,11 +164,8 @@ body::before {
 }
 
 .hero-text h1 {
-  font-size: clamp(4.2rem, 8vw, 6.5rem);
   margin: 0 auto;          
-  text-align: center;   
-  display: block;         
-
+  text-align: center;           
   font-family: var(--display-font);
   font-weight: 400;
   letter-spacing: 0.01em;
