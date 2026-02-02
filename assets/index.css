@@ -316,7 +316,6 @@ body::before {
   opacity: 1;
 }
 
-/* Footer icon wrapper: constrained and centered */
 .footer-icon {
   width: 32px;
   height: 32px;
@@ -336,6 +335,14 @@ body::before {
   object-fit: contain;
 }
 
+/* Fallback: if the image itself has the class */
+img.footer-icon {
+  width: 32px;
+  height: 32px;
+  display: block;
+  object-fit: contain;
+}
+
 /* Target LinkedIn specifically so only that icon gets the subtle hover and never scales */
 a[aria-label="LinkedIn"] .footer-icon {
   width: 32px;
@@ -347,6 +354,18 @@ a[aria-label="LinkedIn"] .footer-icon {
 a[aria-label="LinkedIn"]:hover .footer-icon {
   transform: translateY(-2px);
   opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero-text {
+        order: 2;
+    }
+    
 .profile-wrap{
   width: 320px;
   height: 320px;
