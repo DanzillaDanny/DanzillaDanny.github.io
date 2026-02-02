@@ -164,7 +164,7 @@ body::before {
 
 .hero-text h1 {
   font-family: var(--display-font);
-  font-size: 200px;
+  font-size: clamp(2.1rem, 3.5vw, 3.4rem);
   text-align: center;
   margin: 0 auto;                    
   letter-spacing: 0.01em;
