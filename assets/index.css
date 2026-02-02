@@ -312,7 +312,6 @@ body::before {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  transition: transform 0.15s ease, opacity 0.15s ease;
 }
 
 .footer-icon {
