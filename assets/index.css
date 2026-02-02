@@ -347,6 +347,19 @@ img[src*="InBug-White.png"] {
     .hero-title { order: 1; width: 100%; }
     .hero-title h1 { margin: 0.25rem 0; text-align: center; }
 
+    .profile-pic{
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  display: block; 
+
+  object-fit: cover; 
+  object-position: center; 
+
+  border-radius: 0; 
+  max-width: none; 
+}
+
     .profile-wrap { order: 2; float: none; margin: 0.5rem auto; width: 320px; height: 320px; }
 
     .hero-text { order: 3; width: 100%; }
@@ -368,22 +381,7 @@ img[src*="InBug-White.png"] {
   animation: heroFade 700ms ease-out forwards;
   animation-delay: 180ms;
   will-change: opacity, transform, filter;
-}
-
-.profile-pic{
-  width: 100%;
-  height: 100%;
-  object-position: center;
-  display: block; 
-
-  object-fit: cover; 
-  object-position: center; 
-
-  border-radius: 0; 
-  max-width: none; 
-}
-
-    
+}    
     .resume-pic,
     .punk-pad-pic {
         width: 95%;
