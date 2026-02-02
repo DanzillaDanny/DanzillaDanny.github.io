@@ -181,7 +181,6 @@ body::before {
   line-height: 0.9;
 
   opacity: 0;
-    transform: translateY(14px);
   animation:
     fadeUp 520ms ease-out 120ms forwards,
     softGlow 4.5s ease-in-out 0ms infinite alternate;
