@@ -316,25 +316,37 @@ body::before {
   opacity: 1;
 }
 
+/* Footer icon wrapper: constrained and centered */
 .footer-icon {
-  height: 32px;
   width: 32px;
-  display: flex;
-  justify-content: center;
+  height: 32px;
+  display: inline-flex;
   align-items: center;
+  justify-content: center;
+  overflow: hidden;
   transition: transform 0.15s ease, opacity 0.15s ease;
 }
 
-@media (max-width: 768px) {
-    .hero {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .hero-text {
-        order: 2;
-    }
-    
+/* Ensure any graphic inside the icon fits the wrapper */
+.footer-icon img,
+.footer-icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+/* Target LinkedIn specifically so only that icon gets the subtle hover and never scales */
+a[aria-label="LinkedIn"] .footer-icon {
+  width: 32px;
+  height: 32px;
+  max-width: 32px;
+  max-height: 32px;
+}
+
+a[aria-label="LinkedIn"]:hover .footer-icon {
+  transform: translateY(-2px);
+  opacity: 1;
 .profile-wrap{
   width: 320px;
   height: 320px;
