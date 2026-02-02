@@ -344,10 +344,10 @@ img[src*="InBug-White.png"] {
         gap: 1rem;
     }
 
-    /* Ensure ordering on phones: name (h1 in .hero-text) first, image second, then the rest */
+    /* Explicit order: H1 (hero-text) first, image second, then hero-body (all paragraphs & headings) */
     .hero > .hero-text { order: 1; width: 100%; }
     .hero > .profile-wrap { order: 2; float: none; margin: 0.5rem auto; width: 320px; height: 320px; }
-    .hero > p, .hero > h3 { order: 3; width: 100%; }
+    .hero > .hero-body { order: 3; width: 100%; }
 
     .hero-text h1 { margin: 0.25rem 0; text-align: center; }
 
