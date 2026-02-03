@@ -336,15 +336,8 @@ img[src*="InBug-White.png"] {
 }
 
 @media (max-width: 768px) {
-    .hero {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 1rem;
-    }
 
-        .hero-text h1 { margin: 0.25rem 0; text-align: center; }
+    .hero-text h1 { margin: 0.25rem 0; text-align: center; }
 
     .profile-pic{
       width: 100%;
@@ -359,9 +352,17 @@ img[src*="InBug-White.png"] {
       max-width: none; 
     }
 
+        .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+
     /* Explicit order: H1 (hero-text) first, image second, then hero-body (all paragraphs & headings) */
-    .hero > .hero-text { order: 1; width: 100%; }
-    .hero > .profile-wrap { order: 2; float: none; margin: 0.5rem auto; width: 320px; height: 320px; }
+    .hero > .hero-text { order: 2; width: 100%; }
+    .hero > .profile-wrap { order: 1; float: none; margin: 0.5rem auto; width: 320px; height: 320px; }
     .hero > .hero-body { order: 3; width: 100%; }
 
     .profile-wrap{
