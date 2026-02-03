@@ -360,11 +360,6 @@ img[src*="InBug-White.png"] {
         gap: 1rem;
     }
 
-    /* Explicit order: H1 (hero-text) first, image second, then hero-body (all paragraphs & headings) */
-    .hero > .hero-text { order: 2; width: 100%; }
-    .hero > .profile-wrap { order: 1; float: none; margin: 0.5rem auto; width: 320px; height: 320px; }
-    .hero > .hero-body { order: 3; width: 100%; }
-
     .profile-wrap{
       width: 320px;
       height: 320px;
